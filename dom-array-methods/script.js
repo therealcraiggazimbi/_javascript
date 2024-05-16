@@ -1,3 +1,32 @@
+
+const portfolio = [
+    {
+        service_name: "Nails",
+        service_description: "kasjhoswihdwodwe wjdnwe",
+        price: 12.5,
+        duration: 2,
+        photos: ["img1", "img2", "img3"],
+    },
+    {
+        service_name: "Nails",
+        service_description: "kasjhoswihdwodwe wjdnwe",
+        price: 12.5,
+        duration: 2,
+        photos: ["img1", "img2", "img3"],
+    },
+    {
+        service_name: "Nails",
+        service_description: "kasjhoswihdwodwe wjdnwe",
+        price: 12.5,
+        duration: 2,
+        photos: ["img1", "img2", "img3"],
+    },
+];
+
+
+console.log(JSON.stringify(portfolio));
+
+
 const main = document.getElementById('main');
 const addUserBtn = document.getElementById('add-user');
 const doubleBtn = document.getElementById('double');
